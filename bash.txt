@@ -1,0 +1,16 @@
+QUESTION 1
+//to see the AMOUNT of running httpd(all user)
+ps httpd | wc -l
+
+//to see the lists of running httpd(all user)
+ps httpd 
+
+
+QUESTION 2
+//BASH COMMANDS
+$ cd mig33/inner.folder
+
+$ for file in *.txt
+> do 
+> mv "$file" "${file%.txt}.dat"
+> done 

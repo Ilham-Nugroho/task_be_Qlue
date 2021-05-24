@@ -1,0 +1,13 @@
+concurrency is when two (or more) tasks running side by side, 
+one task's portion at a time,
+example:
+task A running to do some of it's portion,
+task A then will be paused to start task B's portion,
+repeatedly takes turn untill they bot seemingly finished together
+
+
+
+parrallel is when two(or more) tasks are running at the same time,
+started and finished at the same time too
+
+for illustration, please see "concurrency.jpg" file that has been provided
